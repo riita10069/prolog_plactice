@@ -1,0 +1,13 @@
+word(cake,c,a,k,e). 
+word(sour,s,o,u,r). 
+word(meat,m,e,a,t). 
+word(wine,w,i,n,e). 
+word(apple,a,p,p,l,e). 
+word(steam,s,t,e,a,m). 
+word(pocky,p,o,c,k,y). 
+word(flour,f,l,o,u,r). 
+word(sweet,s,w,e,e,t). 
+word(candy,c,a,n,d,y). 
+word(cat,c,a,t). 
+word(buy,b,u,y). 
+word(bro,b,r,o).

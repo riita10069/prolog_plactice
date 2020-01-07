@@ -1,0 +1,15 @@
+.git
+.circleci
+.dockerignore
+.github
+.gitignore
+.glide
+.vscode
+.config/pandas_gbq
+tags
+vendor
+*.log
+tmp
+debug
+apidoc
+venv/

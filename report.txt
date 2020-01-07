@@ -1,0 +1,45 @@
+18B15997 山田 遼太
+
+1
+root@ee152c02d646:/usr/src# swipl friends.pl 
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.1.12)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- friend(jun, X),like(hiroshi, X).
+X = keiko.
+
+2
+root@ee152c02d646:/usr/src# swipl cross_word.pl
+Welcome to SWI-Prolog (threaded, 64 bits, version 8.1.12)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit http://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+?- word(W1,L11,L12,L13,L14),word(W2,L12,L22,L32,L42,L52),word(W3,L41,L42,L43,L44,L45),word(W4,L34,L44,L54).
+W1 = cake,
+L11 = c,
+L12 = a,
+L13 = k,
+L14 = L52, L52 = e,
+W2 = apple,
+L22 = L32, L32 = p,
+L42 = l,
+W3 = flour,
+L41 = f,
+L43 = o,
+L44 = u,
+L45 = r,
+W4 = buy,
+L34 = b,
+L54 = y .
+
+最初にcakeをl1*に入れる
+l2はaから始まるものなのでその中で最初に来るのはapple
+2文字目がlのものはflourが最初に見つかる
+最後は2文字目がuで3文字なのでbuyが見つかる
